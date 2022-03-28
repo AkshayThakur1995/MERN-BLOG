@@ -13,7 +13,7 @@ function SideBar() {
       
     }
     getCats()
-  })
+  },[])
   return (
     <div className="sidebar">
     <div className="sidebarItem">
