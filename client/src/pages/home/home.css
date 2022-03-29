@@ -1,3 +1,9 @@
 .home{
     display: flex;
 }
+
+@media (max-width:500px){
+    .home{
+        display: block;
+    }
+}

@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 24px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.para{
+    width: 50%;
+    margin: 0 auto 0 auto;
+    margin-top: 30px;
+}
+.about_img{
+    width: 50%;
+    margin: 0 auto 0 auto;
+    margin-top: 30px;
+}
+@media (max-width:750px){
+    .container{
+        margin-top: 20%;
+    }
+    .para{
+        width: 90%;
+    }
+    .about_img{
+        width: 90%;
+    }
+}

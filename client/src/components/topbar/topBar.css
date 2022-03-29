@@ -53,3 +53,15 @@
     cursor: pointer;
     margin-left: 15px;
 }
+
+@media (max-width: 500px){
+  .top{
+    display: flex;
+    flex-direction: column;
+  }
+  .topCenter{
+   
+    margin-bottom: 16px;
+  }
+ 
+}

@@ -56,3 +56,14 @@ position: relative;
     cursor: pointer;
     font-size: 16px;
 }
+
+
+@media (max-width:750px){
+    .writeFormGroup{
+        display: block;
+        margin: 0;
+    }
+    .writeSubmit{
+        display: flex;
+    }
+}

@@ -71,3 +71,10 @@
     padding: 10px;
     cursor: pointer;
 }
+
+@media (max-width:750px){
+  .settings{
+    display: block;
+    margin-top: 20%;
+  }
+}
